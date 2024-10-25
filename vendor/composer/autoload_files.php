@@ -10,4 +10,5 @@ return array(
     '7701cf21d42f47f5902f91dade167cc7' => $baseDir . '/src/Controller.php',
     'da63c76053d02ae00ef630cc47475135' => $baseDir . '/src/Game.php',
     '43ef52629d6baffcc39602acdb4dd368' => $baseDir . '/src/View.php',
+    'fece0ccec02aabb51bd56fcdbe04b925' => $baseDir . '/src/Database.php',
 );

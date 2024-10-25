@@ -4,13 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5
+class ComposerStaticInitabc704b282a76268a3554fa71faa24c1
 {
     public static $files = array (
         'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
         '7701cf21d42f47f5902f91dade167cc7' => __DIR__ . '/../..' . '/src/Controller.php',
         'da63c76053d02ae00ef630cc47475135' => __DIR__ . '/../..' . '/src/Game.php',
         '43ef52629d6baffcc39602acdb4dd368' => __DIR__ . '/../..' . '/src/View.php',
+        'fece0ccec02aabb51bd56fcdbe04b925' => __DIR__ . '/../..' . '/src/Database.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -44,10 +45,10 @@ class ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitea9df99c774d0728b4a60daa911dc7e5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitabc704b282a76268a3554fa71faa24c1::$classMap;
 
         }, null, ClassLoader::class);
     }
